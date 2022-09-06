@@ -1,0 +1,134 @@
+.home {
+    height: 100vh;
+    background: linear-gradient(120deg, #000 , #39FF14 ,#000 , #000);
+    clip-path: polygon(0 0, 100% 0, 100% 90%, 0 100%);
+    color: #ffffff;
+}
+
+.homeImg {
+    padding: 50px;
+    width: 90%;
+}
+
+.homeContent {
+    margin: 80px;
+    margin-top: 150px;
+}
+
+.heading {
+    font-size: 50px;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+
+.title {
+    margin-left: 4px;
+    font-weight: 350;
+    font-size: 40px;
+}
+
+.socialIcon {
+    margin-left: 20%;
+    margin-top: -100px;
+}
+
+.icon {
+    padding: 5px;
+}
+
+.icon:hover {
+    cursor: pointer;
+}
+
+.introHeading {
+    text-align: center;
+    font-size: 38px;
+    font-weight: 600;
+    color: white;
+}
+
+.introTitle {
+    text-align: left;
+    color: white;
+}
+
+.content {
+    margin-top: 20%;
+    font-size: 1.7rem;
+    color: white;
+}
+
+.introImg {
+    border-radius: 50%;
+    width: 400px;
+    align-items: center;
+}
+
+.expertiseSection {
+    color: white;
+    text-align: center;
+}
+
+.expertiseTittle {
+    text-align: center;
+    font-size: 35px;
+    color: white;
+}
+
+.skillTitle {
+    text-align: center;
+    font-size: 40px;
+    color: white;
+}
+
+
+.demo {
+    color: #ffffff;
+    background-color: #000;
+    height: 10rem;
+}
+
+@media(max-width: 600px) {
+    .introImg {
+        width: 100%;
+        margin: 10px auto 20px;
+        display: block;
+    }
+
+    .homeImg {
+        padding: 30px;
+        width: 80%;
+    }
+
+    .homeContent {
+        margin: 50px;
+        margin-top: -40px;
+    }
+
+    .heading {
+        font-size: 25px;
+        font-weight: 500;
+    }
+
+    .content {
+        margin-top: 0%;
+    }
+
+    .title {
+        margin-left: 0px;
+        font-size: 24px;
+        font-weight: 400;
+
+    }
+
+    .skillTitle {
+        font-size: 30px;
+    }
+
+    .socialIcon {
+        margin-left: 30%;
+        margin-top: -25px;
+    }
+
+
+}
